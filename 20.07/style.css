@@ -55,9 +55,14 @@ td {
     margin-right: -20px;
 }
 
+.single {
+    text-align: center;
+}
+
 .middle {
     margin-left: -20px;
     margin-right: -20px;
+    text-align: center;
 }
 
 .end {
@@ -73,15 +78,14 @@ td {
     padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 10px;
-    text-align: center;
 }
 
-[class~=four-day] {
+.four-day {
     margin-right: -90px;
     text-align: right;
 }
 
-[class~=two-day] {
+.two-day {
     margin-right: -45px;
     text-align: right;
 }
