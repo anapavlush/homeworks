@@ -1,0 +1,29 @@
+.main-div{
+    width: 300px;
+    height: 200px;
+    border: black 1px solid;
+    border-radius: 10%;
+    background-color: white;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 1.2em;
+    padding: 0.1em;
+    margin: 0.5em 0.5em 0em 0.5em;
+    background-image: url(https://i.imgur.com/cHFidPz.png);
+    background-repeat: no-repeat;
+    background-position: 6em 0em;
+    background-attachment: local;
+    background-size: 20px 25px;
+}
+
+.inside-div {
+    background-color: #ffc;
+    height: 80%;
+    overflow: auto;
+    padding: 0em 1em;
+    border: double 0.5em rgba(0,102,255,.1);
+    border-radius: 10%;
+    background-clip: content-box;
+}
