@@ -62,7 +62,7 @@ a {
     text-decoration: none;
 }
 
-.anchor:visited {
+.anchor:target {
     text-decoration: underline;
     font-style: italic;
 }
