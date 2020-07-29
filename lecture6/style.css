@@ -13,7 +13,7 @@ h1 {
     margin: 0.5em 0.5em 0em 0.5em;
     background-image: url(https://i.imgur.com/cHFidPz.png);
     background-repeat: no-repeat;
-    background-position: 6em 0em;
+    background-position: top 0em right 0.5em;
     background-attachment: local;
     background-size: 20px 25px;
 }
@@ -25,5 +25,5 @@ h1 {
     padding: 0em 1em;
     border: double 0.5em rgba(0,102,255,.1);
     border-radius: 10%;
-    background-clip: content-box;
+    background-clip: padding-box;
 }
