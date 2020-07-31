@@ -1,0 +1,140 @@
+body {
+    background: #333745;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    display: inline-block;
+    margin: 40px 15px 0 15px;
+    width: 220px;
+    height: 380px;
+    border-radius: 1.5rem;
+    padding: 30px;
+    box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.card .type {
+    letter-spacing: 0.1rem;
+    margin-top: 20px;
+}
+
+.card .transparent {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+    text-shadow: none;
+    font-size: 160px;
+}
+
+.card .basic {
+    left: -35px;
+    top: 2px;
+}
+
+.card .awesome {
+    left: 5px;
+    top: 20px;
+}
+
+.card .premium {
+    left: -80px;
+    top: 2px;
+}
+
+.card .price {
+    font-size: 7rem;
+    margin: -15px;
+    margin-left: -35px;
+}
+
+.card .bigger-price  {
+    font-size: 9rem;
+    margin: -20px;
+    margin-left: -35px;
+}
+
+.card .price .dollar-sign {
+    font-size: 1.8rem;
+}
+
+.card .bigger-price .bigger-sign {
+    font-size: 2rem;
+}
+
+.card .plan {
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.card .plan::before, .card .plan::after {
+    content: "";
+    width: 35px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 40%; 
+}
+
+.card .plan::before {
+    left: 15%;
+}
+
+.card .plan::after {
+    right: 15%;
+}
+
+.card .details {
+    list-style: none;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.card .details span {
+    text-transform: uppercase;
+}
+
+.card .details li {
+    margin: 15px 0px;
+}
+
+.card .sticker {
+    color: #333745;
+    text-shadow: none;
+    background-color: white;
+    border-radius: 2rem 0 1.5rem 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.card .sticker-text {
+    padding: 10px;
+    margin: 10px 15px 7px 15px;
+}
+
+.card .bigger-text {
+    padding: 15px;
+    margin: 5px 10px 2px 10px;
+    font-size: large;
+}
+
+.card:nth-child(1) {
+    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(to left,  #ff4168, #ff464b, #ff4b2f);
+    width: 250px;
+    height: 410px;
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(to left, #0bb294, #4abc6c, #8bc743);
+}
