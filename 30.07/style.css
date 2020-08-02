@@ -26,28 +26,6 @@ body {
     margin-top: 20px;
 }
 
-.card .transparent {
-    position: absolute;
-    color: rgba(255, 255, 255, 0.1);
-    text-shadow: none;
-    font-size: 160px;
-}
-
-.card .basic {
-    left: -35px;
-    top: 2px;
-}
-
-.card .awesome {
-    left: 5px;
-    top: 20px;
-}
-
-.card .premium {
-    left: -80px;
-    top: 2px;
-}
-
 .card .price {
     font-size: 7rem;
     margin: -15px;
@@ -66,6 +44,36 @@ body {
 
 .card .bigger-price .bigger-sign {
     font-size: 2rem;
+}
+
+.card .basic::before {
+    content: "$20";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+    text-shadow: none;
+    font-size: 160px;
+    left: -35px;
+    top: 2px;
+}
+
+.card .awesome::before {
+    content: "$50";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+    text-shadow: none;
+    font-size: 160px;
+    left: 5px;
+    top: 20px;
+}
+
+.card .premium::before {
+    content: "$100";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+    text-shadow: none;
+    font-size: 160px;
+    left: -80px;
+    top: 2px;
 }
 
 .card .plan {
