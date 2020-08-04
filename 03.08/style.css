@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(187, 243, 245);
+}
+
+h1, .caption {
+    margin: 3px;
+    text-align: center;
+}
+
+.header-list {
+    margin: 10px 10px 10px 700px;
+}
+
+.list {
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.content {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+    margin: 20px 0px;
+}
+
+h2 {
+    margin-top: -20px;
+}
+
+.favorites {
+    padding: 20px;
+}
+
+#first-fav-img {
+    float: right;
+    padding: 5px;
+}
+
+.first-fav-article {
+    border: solid black 1px;
+    float: right;
+    margin: 10px 15px 5px 15px;
+}
+
+#second-fav-img {
+    float: left;
+    padding: 5px;
+}
+
+.second-fav-article {
+    border: solid black 1px;
+    float: left;
+    margin: 10px 15px 5px 15px;
+}
