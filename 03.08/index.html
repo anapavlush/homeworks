@@ -6,72 +6,218 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body id="top">
     <div class="header">
         <h1>Блог</h1>
         <p class="caption">Самый лучший блог из всех, что вы сможете найти.</p>
         <ul class="header-list">
-            <li>На главную</li>
-            <li>О нас</li>
-            <li>Фото</li>
+            <li><a href="">На главную</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Фото</a></li>
         </ul>
     </div>
+
     <div class="content">
-        <div class="main list">
+        <div class="list">
             <ul>
-                <li>Избранные Статьи</li>
-                <li>Самые Популярные Статьи</li>
-                <li>Все Статьи</li>
+                <li><a href="#favorite-articles">Избранные Статьи</a></li>
+                <li><a href="#popular-articles">Самые Популярные Статьи</a></li>
+                <li><a href="#all-articles">Все Статьи</a></li>
             </ul>
         </div>
         <hr>
         <br>
 
-        <div class="favorites">
-
+        <div class="content-block">
             <h2>Избранные Статьи</h2>
-            <div class="favorite list">
+            <div class="list">
                 <ul>
-                    <li>Избранная Статья №1</li>
-                    <li>Избранная Статья №2</li>
+                    <li><a href="#first-fav-arl">Избранная статья №1</a></li>
+                    <li><a href="#second-fav-arl">Избранная статья №2</a></li>
                 </ul>
             </div>
 
-            <div class="first-fav-article">
-                <img id="first-fav-img"
-                    src="https://i.picsum.photos/id/85/100/150.jpg?hmac=y3sidyxBIjYFggZc6PiHMNYAmxZihuqVWGo6vcHbGig">
-                    <h3>Избранная Статья №1</h3>
+            <div class="text right">
+                <img class="image right"
+                    src="https://i.picsum.photos/id/66/150/150.jpg?hmac=2cqd7x5UZVioa3Dh_Wk1VqZ8Er8YGzSrtiUMyXe350A">
+                <h3 id="first-fav-arl">Избранная статья №1</h3>
                 <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla. Donec a mollis nibh,
                     sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
                     malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
                     venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
                     tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
-                    semper in, tempus rutrum tellus. In et venenatis purus, et auctor nisl. Vivamus felis ligula,
-                    ultrices quis nulla et, congue pretium dui. Suspendisse aliquet mattis ligula, sed viverra lorem
-                    suscipit sit amet. Donec turpis leo, dictum eget nibh a, consequat dictum nisl. Ut sem ante, posuere
-                    vitae sapien quis, mollis molestie lacus. Quisque consequat malesuada nulla, eget porttitor dui
-                    blandit nec.</p>
+                    semper in, tempus rutrum tellus.</p>
             </div>
 
-            <div class="second-fav-article">
-                <img id="second-fav-img"
+            <div class="text left">
+                <img class="image left"
                     src="https://i.picsum.photos/id/931/150/150.jpg?hmac=wMvTJoApzeXDjfn_rS2UnQb-AXNlMpatqee3D07HXog">
-                    <h3>Избранная Статья №2</h3>
-                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla. Donec a mollis nibh,
+                <h3 id="second-fav-arl">Избранная статья №2</h3>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
                     sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
                     malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
                     venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
                     tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
-                    semper in, tempus rutrum tellus. In et venenatis purus, et auctor nisl. Vivamus felis ligula,
-                    ultrices quis nulla et, congue pretium dui. Suspendisse aliquet mattis ligula, sed viverra lorem
-                    suscipit sit amet. Donec turpis leo, dictum eget nibh a, consequat dictum nisl. Ut sem ante, posuere
-                    vitae sapien quis, mollis molestie lacus. Quisque consequat malesuada nulla, eget porttitor dui
-                    blandit nec.</p>
+                    semper in, tempus rutrum tellus.</p>
             </div>
+
+            <div class="clear"></div>
+
+            <div class="button"><a href="#top">Наверх</a></div>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        <div class="content-block">
+            <h2>Самые Популярные Статьи</h2>
+            <div class="list">
+                <ul>
+                    <li><a href="#first-pplr-arl">Популярная статья №1</a></li>
+                    <li><a href="#second-pplr-arl">Популярная статья №2</a></li>
+                </ul>
+            </div>
+
+            <div class="text right">
+                <img class="image right"
+                    src="https://i.picsum.photos/id/85/100/150.jpg?hmac=y3sidyxBIjYFggZc6PiHMNYAmxZihuqVWGo6vcHbGig">
+                <h3 id="first-pplr-arl">Популярная статья №1</h3>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="text left">
+                <img class="image left"
+                    src="https://i.picsum.photos/id/316/100/150.jpg?hmac=ZpCUu_mK9W2faAj5Vy63VHEOla0Z6FLf9UL2ZINvW68">
+                <h3 id="second-pplr-arl">Популярная статья №2</h3>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="button"><a href="#top">Наверх</a></div>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        <div class="content-block">
+            <h2>Все Статьи</h2>
+            <div class="article" id="first-article">
+                <a href="#first-article">
+                    <h3>Статья 1</h3>
+                </a>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="article" id="second-article">
+                <a href="#second-article">
+                    <h3>Статья 2</h3>
+                </a>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="article" id="third-article">
+                <a href="#third-article">
+                    <h3>Статья 3</h3>
+                </a>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="article" id="fourth-article">
+                <a href="#fourth-article">
+                    <h3>Статья 4</h3>
+                </a>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="article" id="fifth-article">
+                <a href="#fifth-article">
+                    <h3>Статья 5</h3>
+                </a>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="article" id="sixth-article">
+                <a href="#sixth-article">
+                    <h3>Статья 6</h3>
+                </a>
+                <p>Maecenas varius ex et ultrices suscipit. Morbi a aliquam orci, in posuere nulla.
+                    Donec a mollis nibh,
+                    sit amet suscipit eros. Fusce risus felis, tempus id quam nec, bibendum porttitor velit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Vivamus efficitur enim at ante vulputate
+                    venenatis. Etiam interdum tortor leo, vel placerat urna convallis non. Maecenas aliquet et purus
+                    tincidunt posuere. Curabitur et consequat leo, et tristique dolor. Sed eros tortor, accumsan ac
+                    semper in, tempus rutrum tellus.</p>
+            </div>
+
+            <div class="button"><a href="#top">Наверх</a></div>
 
         </div>
+        <br>
 
     </div>
+
+    <footer>
+        <div class="footer">
+            <span id="footer-title">Свяжитесь с нами!</span>
+            
+            <div>
+                <a href="https://t.me/anapavlush" target="_blank"><img class="footer-img" src="images/telegram.jpg"
+                        alt="Telegram"></a>
+                <a href="https://www.instagram.com/yourplasticsounds/" target="_blank"><img class="footer-img"
+                        src="images/instagram.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com/eypizzamama" target="_blank"><img class="footer-img"
+                        src="images/twitter.jpg" alt="Twitter"></a>
+            </div>
+            <p id="copyright">© 2020 Блог. Все права защищены. По любым вопросам обращайтесь по адресу <a
+                    href="mailto:anapavlush@gmail.com">anapavlush@gmail.com</a>.
+            </p>
+        </div>
+    </footer>
+
 </body>
 
 </html>

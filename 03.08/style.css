@@ -1,26 +1,46 @@
-body {
-    background-color: rgb(187, 243, 245);
+body, html {
+    background-color: #f0f8ff;
+    height: auto;
+    margin: 0;
 }
 
 h1, .caption {
-    margin: 3px;
+    margin: 5px;
     text-align: center;
 }
 
-.header-list {
-    margin: 10px 10px 10px 700px;
+h1 {
+    margin-top: 20px;
 }
 
-.list {
-    background-color: rgb(197, 197, 197);
-    border-radius: 10px;
-    padding: 1px;
+h1::after, h2::after {
+    content: '';
+    background-image: url(images/unicorn.jpg);
+    display: inline-block;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    margin: -5px 3px;
+}
+
+.header-list {
+    position: relative;
+    left: 45%;
+    width: 30%;
+    margin: 3px;
 }
 
 .content {
     background-color: white;
     padding: 30px;
-    margin: 20px;
+    margin: 10px 200px 20px;
+}
+
+.list {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 1px;
 }
 
 hr {
@@ -33,28 +53,91 @@ h2 {
     margin-top: -20px;
 }
 
-.favorites {
+.content-block {
     padding: 20px;
 }
 
-#first-fav-img {
-    float: right;
-    padding: 5px;
-}
-
-.first-fav-article {
+.text {
     border: solid black 1px;
-    float: right;
     margin: 10px 15px 5px 15px;
 }
 
-#second-fav-img {
+.left {
     float: left;
     padding: 5px;
 }
 
-.second-fav-article {
-    border: solid black 1px;
-    float: left;
-    margin: 10px 15px 5px 15px;
+.right {
+    float: right;
+    padding: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.button {
+    background-color:#9eaaca;
+    border-radius: 6px;
+    box-shadow: #464664 2px 2px 0 2px;
+    float: right;
+    padding: 5px 25px;
+    margin: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(0, 0, 139);
+}
+
+.article {
+    border: black solid 1px;
+    background-color: #ccccee;
+    width: 80px;
+    height: 35px;
+    padding: 10px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.article:target {
+    overflow: visible;
+    height: auto;
+    width: auto;
+    max-width: 80%;
+    background-color: white;
+}
+
+.article:target a {
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    background-color: #d3d3d3;
+    min-height: 100%;
+    padding: 10px;
+}
+
+#footer-title {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+   
+}
+
+.footer-img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#copyright {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
 }
