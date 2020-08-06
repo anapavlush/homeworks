@@ -4,7 +4,7 @@ body, html {
     margin: 0;
 }
 
-h1, #caption {
+h1, .caption {
     margin: 5px;
     text-align: center;
 }
@@ -24,14 +24,14 @@ h1::after, h2::after {
     margin: -5px 3px;
 }
 
-#header-list {
+.header-list {
     position: relative;
     left: 45%;
     width: 30%;
     margin: 3px;
 }
 
-#content {
+.content {
     background-color: white;
     padding: 30px;
     margin: 10px 200px 20px;
@@ -73,11 +73,11 @@ h2 {
     padding: 5px;
 }
 
-#clear {
+.clear {
     clear: both;
 }
 
-#button {
+.button {
     background-color:#9eaaca;
     border-radius: 6px;
     box-shadow: #464664 2px 2px 0 2px;
@@ -86,7 +86,7 @@ h2 {
     margin: 10px;
 }
 
-#button a {
+.button a {
     text-decoration: none;
     color: rgb(0, 0, 139);
 }
@@ -120,7 +120,7 @@ footer {
     padding: 10px;
 }
 
-#footer-title {
+.footer-title {
     font-size: x-large;
     font-style: italic;
     font-weight: bold;
@@ -133,7 +133,7 @@ footer {
     padding: 5px;
 }
 
-#copyright {
+.copyright {
     margin: 5px 0;
     font-style: italic;
 }
