@@ -1,0 +1,119 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+.block {
+    height: 575px;
+    width: 430px;
+    background: linear-gradient(rgba(25, 32, 68, 0.74), rgb(25, 32, 68));
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    padding-top: 40px;
+}
+
+.links li{
+    padding-left: 10px;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.links .active a {
+    color: #ffffff;
+    border-bottom: solid 2px #1059ff;
+    padding-bottom: 10px;
+}
+
+form {
+    padding-top: 55px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.form-input {
+    width: 95%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    height: 34px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.form-input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.form-signed-in {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.form-button {
+    display: block;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 3px;
+    background: #1059ff;
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    height: 34px;
+    margin-bottom: 70px;
+}
+
+.form-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.form-button:focus {
+    outline: none;
+}
+
+.block::after {
+    content: "";
+    width: 351px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    bottom: 32%; 
+    left: 38.6%;
+}
+
+.forgot-password {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: small;
+    margin-left: 35%;
+    margin-top: 30px;
+    display: inline-block;
+}

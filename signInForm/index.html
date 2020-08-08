@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">
+            <div class="nav">
+                <ul class="links">
+                    <li class="active"><a href="#">Sign in</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </div>
+
+            <form name="login">
+                <label class="form-label">Username</label>
+                <input type="text" name="username" class="form-input">
+
+                <label class="form-label">Password</label>
+                <input type="password" name="password" class="form-input">
+
+                <input type="checkbox" name="keepSignedIn" id="keepSignedIn">
+                <label class="form-signed-in" for="keepSignedIn">Keep me signed in</label>
+
+                <button class="form-button" type="submit"><a href="#">Sign in</a></button>
+            </form>
+
+            <div>
+                <span class="forgot-password">Forgot your password?</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
