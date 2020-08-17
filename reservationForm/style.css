@@ -70,25 +70,23 @@ h1::after {
     margin: 10px;
 }
 
-button {
+.button {
     background-color: #4d2d1a;
     border: none;
     border-radius: 10px;
     height: 30px;
     width: 200px;
+    color: beige;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 button:focus {
     outline: none;
 }
 
-button a {
-    text-decoration: none;
-    color: beige;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
 
 textarea {
     resize: none;
